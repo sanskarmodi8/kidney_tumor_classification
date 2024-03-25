@@ -15,4 +15,6 @@ types-PyYAML
 scipy
 fastapi
 gdown
+uvicorn
+pydantic
 -e .
