@@ -1,0 +1,2 @@
+from KidneyTumorClassifier import logger
+

@@ -12,3 +12,4 @@ src/KidneyTumorClassifier/constants/__init__.py
 src/KidneyTumorClassifier/entity/__init__.py
 src/KidneyTumorClassifier/pipeline/__init__.py
 src/KidneyTumorClassifier/utils/__init__.py
+src/KidneyTumorClassifier/utils/common.py
