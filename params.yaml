@@ -1,1 +1,8 @@
-key: val
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per resnet50 model
+BATCH_SIZE: 32
+INCLUDE_TOP: False
+EPOCHS: 10
+CLASSES: 4
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
