@@ -22,4 +22,4 @@ logging.basicConfig(
 )
 
 # create an object of the logger
-logger = logging.getLogger("kidneyTumorClassifierLogger")
+logger = logging.getLogger("kidneyDiseaseClassifierLogger")

@@ -1,2 +1,2 @@
-from KidneyTumorClassifier import logger
+from KidneyDiseaseClassifier import logger
 

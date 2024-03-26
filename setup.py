@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "kidney_tumor_classification"
+REPO_NAME = "kidney_disease_classification"
 AUTHOR_USER_NAME = "sanskarmodi8"
-SRC_REPO = "KidneyTumorClassifier"
+SRC_REPO = "KidneyDiseaseClassifier"
 AUTHOR_EMAIL = "sansyprog8@gmail.com"
 
 
@@ -17,7 +17,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="Kidney Tumor Classifier Python Package",
+    description="Kidney Disease Classifier Python Package",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
