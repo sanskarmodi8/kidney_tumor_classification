@@ -3,8 +3,7 @@ import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
 from pathlib import Path
-from KidneyDiseaseClassifier.entity.config_entity import PrepareBaseModelConfig
-
+from KidneyDiseaseClassifier.entity.config_entity import (PrepareBaseModelConfig)
 
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):
@@ -12,7 +11,7 @@ class PrepareBaseModel:
 
     
     def get_base_model(self):
-        self.model = tf.keras.applications.resnet.ResNet50(
+        self.model = tf.keras.applications.vgg16.VGG16(
             input_shape=self.config.params_image_size,
             weights=self.config.params_weights,
             include_top=self.config.params_include_top
@@ -53,6 +52,7 @@ class PrepareBaseModel:
     
     
     def update_base_model(self):
+        
         self.full_model = self._prepare_full_model(
             model=self.model,
             classes=self.config.params_classes,

@@ -1,6 +1,7 @@
 tensorflow==2.12.0
 pandas 
 dvc
+pillow
 mlflow==2.2.2
 notebook
 numpy
@@ -17,4 +18,5 @@ fastapi
 gdown
 uvicorn
 pydantic
+python-multipart
 -e .

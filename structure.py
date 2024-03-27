@@ -13,13 +13,18 @@ list_of_files = [
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/components/data_ingestion.py",
     f"src/{project_name}/components/prepare_base_model.py",
+    f"src/{project_name}/components/train_model.py",
+    f"src/{project_name}/components/evaluation.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/pipeline/prediction.py",
     f"src/{project_name}/pipeline/stage_01_data_ingestion.py",
     f"src/{project_name}/pipeline/stage_02_prepare_base_model.py",
+    f"src/{project_name}/pipeline/stage_03_training_model.py",
+    f"src/{project_name}/pipeline/stage_04_evaluation.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/entity/config_entity.py",
     f"src/{project_name}/constants/__init__.py",
@@ -30,7 +35,10 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    ".gitignore"
+    ".gitignore",
+    ".dvcignore",
+    "app.py",
+    "Dockerfile"
 ]
 
 for filepath in list_of_files:
