@@ -26,7 +26,7 @@ class ClientApp:
 
 @app.get("/")
 async def home():
-    return {"message": "Welcome to the Kidney Disease prediction API --by Sanskar Modi"}
+    return {"message": "Welcome to the Kidney Disease prediction API --by Sanskar Modi", "/train" : "go to this route to start the training pipeline", "/docs" : "go to this route to be able to send post request on route /predict for classification"}
 
 @app.route("/train", methods=['GET','POST'])
 async def trainRoute():
