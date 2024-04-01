@@ -28,10 +28,10 @@ class ClientApp:
 async def home():
     return {"message": "Welcome to the Kidney Disease prediction API --by Sanskar Modi", "/train" : "go to this route to start the training pipeline", "/docs" : "go to this route to be able to send post request on route /predict for classification"}
 
-@app.route("/train", methods=['GET','POST'])
+@app.get("/train")
 async def trainRoute():
-    os.system("python main.py")
-    # os.system("dvc repro")
+    # os.system("python main.py")
+    os.system("dvc repro")
     return "Training done successfully!"
 
 @app.post("/predict")
