@@ -2,7 +2,7 @@
 
 This project aims to classify kidney CT scan images into categories such as cyst, normal, tumor, or stone using deep learning and computer vision techniques.
 
-The project is hosted on AWS EC2 instance, you can [click here](http://65.0.132.137:8080/) to visit the deployed project.
+The project is hosted on Azure, you can [click here](kidneydiseaseclassification.azurewebsites.net) to visit the deployed project.
 
 This project mainly utilizes following tools :
 
@@ -11,8 +11,7 @@ This project mainly utilizes following tools :
 - DVC for pipeline versioning
 - FastAPI for server
 - Docker for containerization
-- AWS ECR for saving the Docker image in AWS
-- AWS EC2 instance for container deployment
+- Azure for deployment
 
 ## Table of Contents
 
