@@ -28,17 +28,17 @@ class PredictionPipeline:
         print(result)
 
         if result[0] == 0:
-            prediction = {'image':'Cyst'}
-            return [prediction}]
+            prediction = 'Cyst'
+            return [{ "image" : prediction}]
         elif result[0] == 1:
-            prediction = {'image':'Normal'}
-            return [prediction}]
+            prediction = 'Normal'
+            return [{ "image" : prediction}]
         elif result[0] == 2:
-            prediction = {'image':'Stone'}
-            return [prediction}]
+            prediction = 'Stone'
+            return [{ "image" : prediction}]
         elif result[0] == 3:
-            prediction = {'image':'Tumor'}
-            return [prediction}]
+            prediction = 'Tumor'
+            return [{ "image" : prediction}]
         else:
             prediction = 'Unknown'
-            return [prediction}]
+            return [{ "image" : prediction}]
