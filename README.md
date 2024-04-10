@@ -2,7 +2,7 @@
 
 This project aims to classify kidney CT scan images into categories such as cyst, normal, tumor, or stone using deep learning and computer vision techniques.
 
-The project is hosted on Azure, you can [click here](kidneydiseaseclassification.azurewebsites.net) to visit the deployed project.
+The project is hosted on Azure, you can [click here](https://kidneydiseaseclassification.azurewebsites.net/) to visit the deployed project.
 
 This project mainly utilizes following tools :
 
