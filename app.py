@@ -42,7 +42,7 @@ async def predict_route(file: UploadFile = File(...)):
             f.write(contents)
         clApp = ClientApp()
         result = clApp.classifier.predict()
-        result = [f"{result}"]
+        result = f"{result}"
         return JSONResponse(content=result)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
