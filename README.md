@@ -91,6 +91,8 @@ python src/KidneyDiseaseClassifier/pipeline/stage_04_evaluation.py
 
 ### To start the FastAPI server for making prediction :
 
+Change the port to 8080 in the app.py file and then,
+
 ```bash
 python app.py
 ```
