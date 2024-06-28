@@ -19,7 +19,6 @@ This project mainly utilizes following tools :
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Structure
 
